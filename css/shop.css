@@ -1,0 +1,159 @@
+body{
+    overflow-x: hidden; 
+}
+.btn-rounded {
+    border-radius: 50%;
+    height: 30px !important;
+    width: 31px !important;
+    min-width: 31px;
+}
+.sticky-button {
+    position: sticky;
+    top: 35%;
+    transform: translateY(-50%);
+}
+.content-wrapper > div:last-child{
+    padding-bottom: 70px;
+}
+.recommended {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.cards-container{
+    overflow-x: auto;
+    position: relative;
+    padding-bottom: 20px;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+  .cards-container > div:first-child{
+      margin-left: 10px;
+  }
+  .cards-container::-webkit-scrollbar{
+      display: none;
+  }
+  .card{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    width: 300px;
+    height: 384px;
+    box-shadow: 1px 3px 6px rgba(0,0,0,0.16), 1px 3px 6px rgba(0,0,0,0.23);
+    text-align: center;
+  }
+  .card > img{
+    width: 125px;
+    height: 100px;
+    border-bottom: 2px solid #f0f0f0;
+  }
+  .card > p {
+    font-family: arial;
+    white-space: normal;
+  }
+  .card > h3, .card > h4 {
+    font-family: Verdana;
+    text-align: center;
+  }
+  .searcher{
+    width: 100%;
+    min-height: 300px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ), url(../resources/searcher3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .search-container{
+    background-color: #fff;
+    width: 84%;
+    height: 43px;
+    border-radius: 7px;
+    margin-left: 8%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  #input-filters{
+    width: 20%;
+    border:0;
+    background: transparent;
+    outline: none;
+  }
+  .search-input{
+    background-color: transparent;
+    color: #000;
+    text-align: left;
+    height: 43px;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 2%;
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 0;
+  }
+  .search-button{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    width: 28%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 36px;
+  }
+  .search-button:hover{
+    cursor: pointer;
+  }
+  .searcher-caption{
+    color: #fff;
+    padding-top: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 2px 0 #000;
+    text-align: center;
+  }
+
+  @media (min-width: 768px) {
+    .search-button{
+      width: 12%;
+    }
+    #input-filters{
+      width: 10%;
+    }
+    .search-input{
+      padding-left: 2%;
+      width: 74%;
+    }
+  }
+  @media (min-width: 992px) {
+    .searcher-caption{
+      padding-top: 60px;
+    }
+    .searcher{
+        background-image: linear-gradient(
+          rgba(0, 0, 0, 0.45),
+          rgba(0, 0, 0, 0.45)
+        ), url(../resources/searcher2.jpg);
+        min-height: 440px;
+    }
+    #input-filters{
+      width: 10%;
+    }
+    .search-button{
+      width: 10%;
+    }
+    .search-input{
+      padding-left: 2%;
+      width: 76%;
+    }
+  }
+  @media (min-width: 1200px) {
+    #input-filters{
+      width: 10%;
+    } 
+    .search-container{
+      width: 60%;
+      margin-left: 20%;
+    }
+    .sticky-button{
+      display: inline-block;
+    }
+  }

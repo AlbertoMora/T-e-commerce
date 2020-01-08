@@ -1,0 +1,38 @@
+.most-visited{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #3b3b3b;
+    min-height: 500px;
+}
+.most-visited > a {
+    color: #1a83a3;
+    display: block;
+    font-size: 0.7rem;
+    padding: 6px;
+}
+.blog-post{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.rounded-post-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.post-data{
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .blog-post{
+        margin-left: 0;
+    }
+    .rounded-post-img{
+        margin-top: 40px;
+    }
+}

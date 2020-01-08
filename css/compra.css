@@ -1,0 +1,35 @@
+.purchase-img {
+    width: 260px;
+    height: 195px;
+    margin: auto;
+    display: block;
+    border-bottom: 1px solid #0c0c0c;
+}
+
+.content-wrapper{
+    margin-top: 80px;
+}
+.item-description{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.features-list {
+    list-style-type: none;
+    text-align: justify;
+    padding-right: 30px;
+    line-height: 25px;
+}
+
+@media (min-width: 768px) { 
+
+ }
+
+@media (min-width: 992px) { 
+
+ }
+
+@media (min-width: 1200px) { 
+
+ }

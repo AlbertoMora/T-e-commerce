@@ -1,0 +1,55 @@
+.about-header > .row > [class^="col-"] > h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10px;
+    color: #282929;
+}
+.special-hr {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+ .special-hr::after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+.about-corporate-text{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.about-header > .row > [class^="col-"] > img {
+    width: 100%;
+}
+.about-corporate{
+    text-align: center;
+}
+.corporate-values{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.xs-text-margin{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.our-team{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (min-width: 768px) {
+    .about-header > .row > [class^="col-"] > img {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
